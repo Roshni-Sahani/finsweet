@@ -351,7 +351,11 @@ ul {
 .light-blue {
     background-color: var(--light-blue);
 }
-
+.line{
+    width: 1px;
+    height: 100%;
+    background-color: #C2C0BC !important;
+}
 :root {
     /* font-size */
     --fs-s: 12px;
@@ -554,6 +558,14 @@ ul {
         padding-right: 64px;
         padding-top: 80px;
         padding-bottom: 80px;
+    }
+    .px-lg-112{
+        padding-right: 112px !important;
+        padding-left: 112px !important;
+    }
+    .py-lg-75{
+        padding-top: 75px !important;
+        padding-bottom: 75px !important;
     }
 }
 

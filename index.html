@@ -12,7 +12,7 @@
 
 <body class="">
     <!-- ======================================nav-bar========================= -->
-    <nav class="pos-fix bg-blue py-4">
+    <nav class="pos-fix bg-blue py-4 overflow-hidden">
         <div class="container">
             <div class="d-flex align-items-center justify-content-between">
                 <img src="./assets/images/svg/logo.svg" alt="logo">
@@ -526,19 +526,27 @@
     <section class="pt-lg-96 pt-5">
         <div class="slider">
             <div class="container">
-                <div class="row light-skin px-112 py-75">
-                    <div class="col-5">
-                        <p class="ff-inter fs-xs lh_20 letter_spacing_3 fw-semibold mb-0">TESTIMONIALS</p>
-                        <h2 class="ff-sen fw-bold fs-lg letter-spacing-2 mb-0 lh_48 pt-3">What people say<span
-                                class="d-block"> about our blog</span></h2>
-                        <p class="ff-inter fw-normal fs-xs lh_28 blue max-w-349 mb-0 pt-3">Lorem ipsum dolor sit amet,
+                <div class="row light-skin px-lg-112 py-lg-75 px-5 py-4">
+                    <div class="col-lg-5">
+                        <p class="ff-inter fs-xs lh_20 letter_spacing_3 fw-semibold mb-0 text-center text-lg-start">
+                            TESTIMONIALS</p>
+                        <h2 class="ff-sen fw-bold fs-lg letter-spacing-2 mb-0 lh_48 pt-lg-3 text-center text-lg-start">What
+                            people say<span class="d-block"> about our blog</span></h2>
+                        <p class="ff-inter fw-normal fs-xs lh_28 blue max-w-349 mb-0 pt-3 text-center text-lg-start">
+                            Lorem ipsum dolor sit amet,
                             consectetur <span class="d-block">
                                 adipiscing elit, sed do
                                 eiusmod tempor.
                             </span></p>
                     </div>
-                    <div class="col-7">
-                        <h3 class="pb-5 mb-5 fs-sm fw-bold lh_32 blue">Lorem ipsum dolor sit amet,
+
+                    <div class="col-1 d-none d-lg-block">
+                        <div class="line"></div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <h3 class="pb-lg-5 mb-lg-5 fs-sm fw-bold lh_32 blue text-center text-lg-start">Lorem ipsum dolor
+                            sit amet,
                             <span class="d-block">consectetur adipiscing
                                 elit,
                                 sed
@@ -546,7 +554,7 @@
                             tempor incididunt ut labore
                             et <span class="d-block">dolore magna aliqua.</span>
                         </h3>
-                        <div class="d-flex justify-content-between pt-4">
+                        <div class="d-sm-flex flex-column flex-md-row justify-content-between pt-4">
                             <div class="d-flex gap-3 ">
                                 <img src="./assets/images/png/profileimg.png" alt="profile-pic">
                                 <div>
