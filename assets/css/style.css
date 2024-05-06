@@ -9,15 +9,18 @@
     text-decoration: none !important;
     /* outline: 2px solid red; */
 }
-.common-btn{
+
+.common-btn {
     background: var(--yellow) !important;
     border: 2px solid var(--yellow) !important;
     transition: 300ms all linear;
 }
-.common-btn:hover{
+
+.common-btn:hover {
     background: none !important;
-   color: white !important;
+    color: white !important;
 }
+
 .common-btn2 {
     background: var(--yellow) !important;
     border: 1px solid var(--yellow) !important;
@@ -27,16 +30,19 @@
 .common-btn2:hover {
     background: none !important;
 }
-.sub-btn{
+
+.sub-btn {
     background: white !important;
-        border: 2px solid #fff !important;
-        transition: 300ms all linear;
+    border: 2px solid #fff !important;
+    transition: 300ms all linear;
 }
+
 .sub-btn:hover {
     background: none !important;
     border: 2px solid #fff !important;
     color: white !important;
 }
+
 .max-width-803 {
     max-width: 803px !important;
 }
@@ -81,13 +87,16 @@
 
     padding-top: 128px;
 }
+
 .py_128 {
     padding-top: 128px;
     padding-bottom: 128px;
 }
+
 .p-32 {
     padding: 32px 32px;
 }
+
 .py-96 {
     padding-top: 96px;
     padding-bottom: 96px;
@@ -118,6 +127,16 @@
 .post-card:hover {
     background-color: var(--light-skin);
 
+}
+
+.pre-btn{
+   transition: 800ms all linear !important;
+}
+.pre-btn:hover svg circle {
+    fill: black;
+}
+.pre-btn:hover svg path{
+    fill: white;
 }
 
 .mt-35 {
@@ -244,6 +263,7 @@ ul {
     width: 843px;
 
 }
+
 .double-purple-line {
     position: relative;
 }
@@ -255,6 +275,7 @@ ul {
 .h-800 {
     height: 800px;
 }
+
 .op-6 {
     opacity: 60%;
 }
@@ -351,11 +372,13 @@ ul {
 .light-blue {
     background-color: var(--light-blue);
 }
-.line{
+
+.line {
     width: 1px;
     height: 100%;
     background-color: #C2C0BC !important;
 }
+
 :root {
     /* font-size */
     --fs-s: 12px;
@@ -559,11 +582,13 @@ ul {
         padding-top: 80px;
         padding-bottom: 80px;
     }
-    .px-lg-112{
+
+    .px-lg-112 {
         padding-right: 112px !important;
         padding-left: 112px !important;
     }
-    .py-lg-75{
+
+    .py-lg-75 {
         padding-top: 75px !important;
         padding-bottom: 75px !important;
     }
