@@ -438,6 +438,27 @@ ul {
     height: 100%;
     background-color: #C2C0BC !important;
 }
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--blue);
+}
 
 :root {
     /* font-size */
