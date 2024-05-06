@@ -31,11 +31,13 @@
     background: none !important;
     border: 2px solid var(--yellow) !important;
 }
-.common-btn3:hover{
+
+.common-btn3:hover {
     background-color: var(--blue) !important;
     color: white !important;
 }
-.common-btn3{
+
+.common-btn3 {
     transition: 300ms all linear;
 }
 
@@ -50,11 +52,13 @@
     border: 2px solid #fff !important;
     color: white !important;
 }
-.line2{
+
+.line2 {
     width: 100%;
     height: 1px;
     background-color: #D0D1D3;
 }
+
 .max-width-803 {
     max-width: 803px !important;
 }
@@ -141,13 +145,15 @@
 
 }
 
-.pre-btn{
-   transition: 800ms all linear !important;
+.pre-btn {
+    transition: 800ms all linear !important;
 }
+
 .pre-btn:hover svg circle {
     fill: black;
 }
-.pre-btn:hover svg path{
+
+.pre-btn:hover svg path {
     fill: white;
 }
 
@@ -167,6 +173,48 @@ ul {
 
 .max-w-296 {
     max-width: 296px;
+}
+
+.line3{
+    width: 90%;
+    height: 1px;
+    background-color: #6A43B2;
+}
+.w_60 {
+    width: 60%;
+}
+
+/* form */
+.first {
+    height: 76px;
+    /* border-radius: 5px; */
+    border: 1px solid #6D6E7680;
+    font-family: Poppins;
+    font-size: 16px;
+
+}
+
+.input_box {
+    outline: none;
+    padding: 24px;
+    width: 60%;
+    background-color: transparent;
+    margin-top: 34px;
+    font-family: var(--ff-inter);
+    line-height: 28px;
+    font-weight: 400;
+    font-size: var(--fs-xs);
+    color: var(--blue) !important;
+    border-radius: 2px;
+    border: 1px solid #6D6E7680;
+}
+
+.text_input {
+    width: 60%;
+    resize: none;
+    height: 114px;
+    padding: 24px;
+    margin-top: 34px;
 }
 
 .bg-img {
@@ -473,6 +521,10 @@ ul {
     font-size: var(--fs-xxl);
 }
 
+.fs-xxxs {
+    font-size: var(--fs-xxxs);
+}
+
 /*------------------------colors------------------------------ */
 .yellow {
     color: var(--clr-yellow) !important;
@@ -541,23 +593,12 @@ ul {
         padding-bottom: 128px !important;
     }
 
-    /* .double-yellow-line {
-        content: "";
-        position: absolute !important;
-        background-color: #FFD050 !important;
-        height: 20px !important;
-        width: 843px !important;
-
+    .input_box {
+        width: 60% !important;
     }
-
-    .double-purple-line {
-        content: "";
-        position: absolute;
-        background-color: #592EA9;
-        height: 20px;
-        width: 283px;
-        right: 0;
-    } */
+    .text_input {
+        width: 60% !important;
+    }
 
     .mt-lg-48 {
         margin-top: 48px;
@@ -678,6 +719,7 @@ ul {
         --fs-s: 14px;
         --fs-xs: 16px;
         --fs-xxs: 18px;
+        --fs-xxxs: 20px;
         --fs-sm: 24px;
         --fs-md: 28px;
         --fs-lg: 36px;
