@@ -527,7 +527,7 @@ ul {
 
 /*------------------------colors------------------------------ */
 .yellow {
-    color: var(--clr-yellow) !important;
+    color: var(--yellow) !important;
 }
 
 .bg-yellow {
